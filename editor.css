@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 12px/1.6 'Century Gothic', Helvetica, 'Microsoft YaHei', Lucida, arial, sans-serif;
+	color: #3D3D3D;
+
+}
+
+a {
+	color: #1E4D78;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:link,
+a:visited {
+	transition: color 0.2s;
+	/* 只对颜色属性进行过渡，持续时间为0.2秒 */
+}
+
+
+p {
+	word-wrap: break-word;
+	word-break: break-all;
+	margin: 0 0 10px 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	color: #fff;
+	background: #F5B824;
+	padding: 0 5px;
+}
+
+ol,
+ul {
+	list-style: none outside none;
+}
+
+.left,
+.alignleft {
+	float: left;
+	display: inline;
+}
+
+.right,
+.alignright {
+	float: right;
+	display: inline;
+}
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+/*代码高亮*/
+pre,
+code,
+tt {
+	font: 12px 'andale mono', 'lucida console', monospace;
+	overflow: auto;
+}
+
+code {
+	margin-bottom: 20px;
+}
+
+pre,
+code,
+blockquote {
+	display: block;
+	overflow-x: auto;
+	background: #F7F8BB;
+	padding: 5px 10px;
+	border: 1px solid #eee;
+}
+
+blockquote {
+	border-left: 2px solid #7e5393;
+	margin: 1.5em;
+	color: #666;
+	font-style: italic;
+}
+
+
+img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}

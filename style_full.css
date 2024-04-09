@@ -1,0 +1,106 @@
+/*
+for resolution higher than 1280
+*/
+body {
+    font-size: 14px;
+}
+
+#header {
+    width: 1000px;
+}
+
+#feed {
+    left: -160px;
+    bottom: -60px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1105px;
+    height: 690px;
+    position: relative;
+    background: transparent url(images/bg_full.png) no-repeat 9px 0;
+}
+
+#main {
+    padding-top: 29px;
+}
+
+#mybook {
+    width: 1000px;
+    height: 608px;
+}
+
+#mybook .pagecontent {
+    width: 500px;
+    height: 608px;
+}
+
+/* #mybook .pagecontent { */
+/* 共有的样式 */
+/* } */
+
+#mybook .pagecontent.page2 {
+    left: 500px;
+    width: 500px;
+}
+
+#mybook .pagecontent.page3 {
+    left: 1000px;
+}
+
+#mybook .pagecontent.page4 {
+    left: 500px;
+}
+
+
+#mybook .page-left,
+#mybook .single-left {
+    background: #fff url(images/pagebg_full.jpg) no-repeat 0 0;
+}
+
+#mybook .page-right,
+#mybook .single-right {
+    background: #efefef url(images/pagebg_full.jpg) no-repeat -500px 0;
+}
+
+#mybook .page-left:after,
+#mybook .single-left:after {
+    border-color: #fff #D9D3CF #D9D3CF #fff;
+    border-style: solid;
+    border-width: 15px;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+.post,
+.page {
+    margin: 0 0 20px;
+    width: 480px;
+    padding: 25px 10px;
+}
+
+.postentry {
+    width: 360px;
+}
+
+.entry {
+    width: 480px;
+    height: 500px;
+}
+
+.single-right {
+    left: 500px;
+}
+
+.viewport {
+    width: 460px;
+}
+
+#comments {
+    height: 500px;
+}
